@@ -31,4 +31,7 @@ type Board interface {
 
 	// get scores
 	GetScore() int
+
+	// print board
+	PrintBoard()
 }

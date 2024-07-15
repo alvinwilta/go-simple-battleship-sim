@@ -57,10 +57,12 @@ func (g *game) StartGame(inputfile string) {
 		winMessage = "Player 2 wins"
 	}
 
+	fmt.Println("Board 1:")
+	g.BoardP1.PrintBoard()
+	fmt.Println("\nBoard 2:")
+	g.BoardP2.PrintBoard()
+	fmt.Printf("\nScore P1: %d \n", g.BoardP1.GetScore())
+	fmt.Printf("Score P2: %d \n", g.BoardP2.GetScore())
 	fmt.Println(winMessage)
-	fmt.Println(g.BoardP1)
-	fmt.Println(g.BoardP2)
-	fmt.Println(g.BoardP1.GetScore())
-	fmt.Println(g.BoardP2.GetScore())
 
 }
