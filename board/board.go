@@ -10,8 +10,11 @@ type board struct {
 
 func NewBoard(n int, m int) Board {
 	boardShip := make(map[int]map[int]string, n)
-	for i := 1; i < n; i++ {
+	for i := 0; i < n; i++ {
 		boardShip[i] = make(map[int]string, m)
+		for j := 0; j < m; j++ {
+			boardShip[i][j] = "_"
+		}
 	}
 	return &board{
 		Ships:  boardShip,
