@@ -1,8 +1,8 @@
 package game
 
 import (
-	"github.com/alvinwilta/gojek-coding-test/board"
-	"github.com/alvinwilta/gojek-coding-test/fileparser"
+	"github.com/alvinwilta/go-simple-battleship-sim/board"
+	"github.com/alvinwilta/go-simple-battleship-sim/fileparser"
 )
 
 type game struct {

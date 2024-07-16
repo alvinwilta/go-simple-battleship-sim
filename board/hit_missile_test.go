@@ -3,7 +3,7 @@ package board
 import (
 	"testing"
 
-	"github.com/alvinwilta/gojek-coding-test/types"
+	"github.com/alvinwilta/go-simple-battleship-sim/types"
 )
 
 func Test_board_HitMissile(t *testing.T) {

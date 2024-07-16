@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/alvinwilta/gojek-coding-test/fileparser"
-	"github.com/alvinwilta/gojek-coding-test/game"
+	"github.com/alvinwilta/go-simple-battleship-sim/fileparser"
+	"github.com/alvinwilta/go-simple-battleship-sim/game"
 )
 
 func main() {

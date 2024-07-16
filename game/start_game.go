@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/alvinwilta/gojek-coding-test/board"
-	"github.com/alvinwilta/gojek-coding-test/types"
+	"github.com/alvinwilta/go-simple-battleship-sim/board"
+	"github.com/alvinwilta/go-simple-battleship-sim/types"
 )
 
 func (g *game) StartGame(inputfile string) {
